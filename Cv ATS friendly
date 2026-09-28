@@ -1,0 +1,121 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+% Police sans-serif (lisible par les ATS)
+\usepackage[sfdefault]{roboto}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Titres de sections
+\titleformat{\section}{\Large\bfseries\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{10pt}{6pt}
+
+% Rend le PDF lisible par machine
+\pdfgentounicode=1
+
+% Commandes personnalisées
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{#3} & \textit{#4} \\
+  \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubHeadingList}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemList}{\begin{itemize}[leftmargin=0.3in, label={$\bullet$}, itemsep=1pt, topsep=3pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------- EN-TÊTE -----------
+\begin{center}
+  \textbf{\Huge Fatima-Ezzahraa Naciri} \\[4pt]
+  \small Settat, Maroc $|$ 06 78 64 57 35 $|$
+  \href{mailto:naciri-fatimaezzahraa.encg@uhp.ac.ma}{naciri-fatimaezzahraa.encg@uhp.ac.ma}
+\end{center}
+
+%----------- OBJECTIF -----------
+\section*{Candidature pour un stage en banque}
+\small
+Étudiante en 3\textsuperscript{ème} année à l'ENCG Settat, au profil analytique et rigoureux. Dotée d'un esprit analytique et d'une maîtrise de Microsoft Excel, je souhaite intégrer une banque pour une première expérience professionnelle afin de mettre en pratique mes connaissances académiques, de renforcer mes compétences en gestion financière et de contribuer aux opérations de l'établissement avec rigueur et autonomie.
+
+%----------- FORMATION -----------
+\section{Formation}
+\resumeSubHeadingList
+  \resumeSubheading
+    {École Nationale de Commerce et de Gestion (ENCG) Settat}{2023 -- 2026}
+    {Cycle de Gestion (Bac+3), spécialité Gestion}{Settat, Maroc}
+  \resumeSubheading
+    {Lycée Errazi}{2022 -- 2023}
+    {Baccalauréat Scientifique, mention Très Bien}{Settat, Maroc}
+\resumeSubHeadingListEnd
+
+%----------- EXPÉRIENCE ET PROJETS -----------
+\section{Expérience et projets}
+\resumeSubHeadingList
+  \resumeSubheading
+    {Projet Entrepreneurial \& Hackathon}{2024}
+    {Membre de l'équipe (projet collectif de 10 membres)}{ENCG Settat}
+    \resumeItemList
+      \resumeItem{Développement d'un projet collaboratif de type coopératif}
+      \resumeItem{Réalisation de la planification financière et budgétaire du projet}
+      \resumeItem{Utilisation avancée de Microsoft Excel pour l'analyse des données}
+      \resumeItem{Sélection parmi 10 groupes pour participer au Hackathon national}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%----------- COMPÉTENCES -----------
+\section{Compétences}
+\resumeSubHeadingList
+  \resumeItem{\textbf{Bureautique} : Microsoft Office (Excel, Word, PowerPoint), Power BI}
+  \resumeItem{\textbf{Analyse} : planification financière, recherche de données, connaissances en comptabilité}
+  \resumeItem{\textbf{Gestion} : gestion de projet, gestion budgétaire, travail collaboratif}
+  \resumeItem{\textbf{Compétences transversales} : esprit d'équipe, résolution autonome de problèmes, rigueur et sens de l'organisation, adaptabilité et curiosité professionnelle}
+\resumeSubHeadingListEnd
+
+%----------- LANGUES -----------
+\section{Langues}
+\resumeSubHeadingList
+  \resumeItem{\textbf{Anglais} : C2 (maîtrise professionnelle)}
+  \resumeItem{\textbf{Français} : B2 (intermédiaire / courant)}
+  \resumeItem{\textbf{Arabe} : langue maternelle}
+\resumeSubHeadingListEnd
+
+%----------- CENTRES D'INTÉRÊT -----------
+\section{Centres d'intérêt}
+\resumeSubHeadingList
+  \resumeItem{Veille économique et financière}
+  \resumeItem{Design graphique (Canva)}
+  \resumeItem{Résolution de problèmes et pensée critique}
+\resumeSubHeadingListEnd
+
+\end{document}
